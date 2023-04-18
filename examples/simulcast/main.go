@@ -1,6 +1,7 @@
 //go:build !js
 // +build !js
 
+// simulcast demonstrates of how to handle incoming track with multiple simulcast rtp streams and show all them back.
 package main
 
 import (
@@ -16,6 +17,7 @@ import (
 	"gitlab.mty.wang/sgguo/webrtc/examples/internal/signal"
 )
 
+// nolint:gocognit
 func main() {
 	// Everything below is the Pion WebRTC API! Thanks for using it ❤️.
 

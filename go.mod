@@ -18,6 +18,7 @@ require (
 	github.com/pion/transport/v2 v2.1.0
 	github.com/sclevine/agouti v3.0.0+incompatible
 	github.com/stretchr/testify v1.8.2
+	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/net v0.8.0
 )
 
