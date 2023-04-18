@@ -7,7 +7,7 @@ If you wish to save VP8/Opus inside the same file see [save-to-webm](https://git
 ### Download save-to-disk
 ```
 export GO111MODULE=on
-go get github.com/pion/webrtc/v3/examples/save-to-disk
+go get gitlab.mty.wang/sgguo/webrtc/examples/save-to-disk
 ```
 
 ### Open save-to-disk example page

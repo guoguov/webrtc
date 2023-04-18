@@ -11,11 +11,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
-	"github.com/pion/webrtc/v3/pkg/media"
-	"github.com/pion/webrtc/v3/pkg/media/ivfreader"
-	"github.com/pion/webrtc/v3/pkg/media/oggreader"
+	"gitlab.mty.wang/sgguo/webrtc"
+	"gitlab.mty.wang/sgguo/webrtc/examples/internal/signal"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/media/ivfreader"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/media/oggreader"
 )
 
 const (

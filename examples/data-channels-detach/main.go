@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
+	"gitlab.mty.wang/sgguo/webrtc"
+	"gitlab.mty.wang/sgguo/webrtc/examples/internal/signal"
 )
 
 const messageSize = 15

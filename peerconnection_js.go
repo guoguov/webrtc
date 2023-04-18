@@ -8,7 +8,7 @@ import (
 	"syscall/js"
 
 	"github.com/pion/ice/v2"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 // PeerConnection represents a WebRTC connection that establishes a

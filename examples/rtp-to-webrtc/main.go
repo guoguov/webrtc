@@ -9,8 +9,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
+	"gitlab.mty.wang/sgguo/webrtc"
+	"gitlab.mty.wang/sgguo/webrtc/examples/internal/signal"
 )
 
 func main() {

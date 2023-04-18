@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/pion/randutil"
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/pkg/media"
-	"github.com/pion/webrtc/v3/pkg/media/ivfreader"
+	"gitlab.mty.wang/sgguo/webrtc"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/media/ivfreader"
 )
 
 var peerConnection *webrtc.PeerConnection //nolint

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pion/webrtc/v3"
+	"gitlab.mty.wang/sgguo/webrtc"
 	"golang.org/x/net/websocket"
 )
 

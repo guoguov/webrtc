@@ -22,9 +22,9 @@ import (
 	"github.com/pion/logging"
 	"github.com/pion/rtcp"
 	"github.com/pion/srtp/v2"
-	"github.com/pion/webrtc/v3/internal/mux"
-	"github.com/pion/webrtc/v3/internal/util"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"gitlab.mty.wang/sgguo/webrtc/internal/mux"
+	"gitlab.mty.wang/sgguo/webrtc/internal/util"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 // DTLSTransport allows an application access to information about the DTLS

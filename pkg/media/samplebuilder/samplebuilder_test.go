@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/pion/rtp"
-	"github.com/pion/webrtc/v3/pkg/media"
 	"github.com/stretchr/testify/assert"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
 )
 
 type sampleBuilderTest struct {

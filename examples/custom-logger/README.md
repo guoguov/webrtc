@@ -7,7 +7,7 @@ users to override this and process messages however they want.
 ### Download custom-logger
 ```
 export GO111MODULE=on
-go get github.com/pion/webrtc/v3/examples/custom-logger
+go get gitlab.mty.wang/sgguo/webrtc/examples/custom-logger
 ```
 
 ### Run custom-logger

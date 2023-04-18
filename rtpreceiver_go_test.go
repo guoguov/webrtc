@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/webrtc/v3/pkg/media"
 	"github.com/stretchr/testify/assert"
+	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
 )
 
 func TestSetRTPParameters(t *testing.T) {
