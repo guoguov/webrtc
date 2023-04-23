@@ -15,7 +15,7 @@ ffmpeg -i $INPUT_FILE -g 30 output.ivf
 ### Download insertable-streams
 ```
 export GO111MODULE=on
-go get gitlab.mty.wang/sgguo/webrtc/examples/insertable-streams
+go get github.com/guoguov/webrtc/examples/insertable-streams
 ```
 
 ### Open insertable-streams example page

@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/guoguov/webrtc"
+	"github.com/guoguov/webrtc/examples/internal/signal"
+	"github.com/guoguov/webrtc/pkg/media"
+	"github.com/guoguov/webrtc/pkg/media/ivfwriter"
+	"github.com/guoguov/webrtc/pkg/media/oggwriter"
 	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
-	"gitlab.mty.wang/sgguo/webrtc"
-	"gitlab.mty.wang/sgguo/webrtc/examples/internal/signal"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media/ivfwriter"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media/oggwriter"
 )
 
 func saveToDisk(i media.Writer, track *webrtc.TrackRemote) {

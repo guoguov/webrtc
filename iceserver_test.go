@@ -7,9 +7,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/stretchr/testify/assert"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 func TestICEServer_validate(t *testing.T) {

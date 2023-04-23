@@ -15,6 +15,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/guoguov/webrtc/pkg/media"
 	"github.com/pion/logging"
 	"github.com/pion/randutil"
 	"github.com/pion/rtcp"
@@ -23,7 +24,6 @@ import (
 	"github.com/pion/transport/v2/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
 )
 
 var (

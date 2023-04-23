@@ -15,13 +15,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/guoguov/webrtc/internal/util"
+	"github.com/guoguov/webrtc/pkg/media"
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/pion/rtp"
 	"github.com/pion/transport/v2/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"gitlab.mty.wang/sgguo/webrtc/internal/util"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 func sendVideoUntilDone(done <-chan struct{}, t *testing.T, tracks []*TrackLocalStaticSample) {

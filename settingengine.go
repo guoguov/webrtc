@@ -8,9 +8,9 @@ import (
 	"net"
 	"time"
 
+	"github.com/guoguov/ice"
 	"github.com/pion/dtls/v2"
 	dtlsElliptic "github.com/pion/dtls/v2/pkg/crypto/elliptic"
-	"github.com/pion/ice/v2"
 	"github.com/pion/logging"
 	"github.com/pion/transport/v2"
 	"github.com/pion/transport/v2/packetio"

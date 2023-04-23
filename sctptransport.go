@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/pion/datachannel"
 	"github.com/pion/logging"
 	"github.com/pion/sctp"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 const sctpMaxChannels = uint16(65535)

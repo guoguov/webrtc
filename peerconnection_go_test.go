@@ -19,13 +19,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
+	"github.com/guoguov/webrtc/internal/util"
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/pion/rtp"
 	"github.com/pion/transport/v2/test"
 	"github.com/pion/transport/v2/vnet"
 	"github.com/stretchr/testify/assert"
-	"gitlab.mty.wang/sgguo/webrtc/internal/util"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 // newPair creates two new peer connections (an offerer and an answerer) using

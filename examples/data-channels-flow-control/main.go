@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitlab.mty.wang/sgguo/webrtc"
+	"github.com/guoguov/webrtc"
 )
 
 const (

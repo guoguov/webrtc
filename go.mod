@@ -1,12 +1,13 @@
-module gitlab.mty.wang/sgguo/webrtc
+module github.com/guoguov/webrtc
 
 go 1.13
 
 require (
+	github.com/guoguov/ice v1.0.1
+	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/onsi/gomega v1.27.6 // indirect
 	github.com/pion/datachannel v1.5.5
 	github.com/pion/dtls/v2 v2.2.6
-	github.com/pion/ice/v2 v2.3.2
 	github.com/pion/interceptor v0.1.12
 	github.com/pion/logging v0.2.2
 	github.com/pion/randutil v0.1.0
@@ -18,8 +19,5 @@ require (
 	github.com/pion/transport/v2 v2.1.0
 	github.com/sclevine/agouti v3.0.0+incompatible
 	github.com/stretchr/testify v1.8.2
-	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/net v0.8.0
 )
-
-replace github.com/pion/ice/v2 => ../ice

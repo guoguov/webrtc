@@ -11,10 +11,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/guoguov/webrtc"
+	"github.com/guoguov/webrtc/examples/internal/signal"
 	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
-	"gitlab.mty.wang/sgguo/webrtc"
-	"gitlab.mty.wang/sgguo/webrtc/examples/internal/signal"
 )
 
 // nolint:gocognit

@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/guoguov/webrtc"
+	"github.com/guoguov/webrtc/pkg/media"
 	"github.com/sclevine/agouti"
-	"gitlab.mty.wang/sgguo/webrtc"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
 )
 
 var silentOpusFrame = []byte{0xf8, 0xff, 0xfe} // 20ms, 8kHz, mono

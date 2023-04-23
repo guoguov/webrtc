@@ -3,8 +3,8 @@ package webrtc
 import (
 	"testing"
 
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/stretchr/testify/assert"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 func TestNewSignalingState(t *testing.T) {

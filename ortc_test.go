@@ -4,7 +4,7 @@
 package webrtc
 
 import (
-	"gitlab.mty.wang/sgguo/webrtc/internal/util"
+	"github.com/guoguov/webrtc/internal/util"
 )
 
 type testORTCStack struct {

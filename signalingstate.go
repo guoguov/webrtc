@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 )
 
 type stateChangeOp int

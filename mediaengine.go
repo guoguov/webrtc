@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/guoguov/webrtc/internal/fmtp"
 	"github.com/pion/rtp"
 	"github.com/pion/rtp/codecs"
 	"github.com/pion/sdp/v3"
-	"gitlab.mty.wang/sgguo/webrtc/internal/fmtp"
 )
 
 const (

@@ -5,7 +5,7 @@ swap-tracks demonstrates how to swap multiple incoming tracks on a single outgoi
 ### Download swap-tracks
 ```
 export GO111MODULE=on
-go get gitlab.mty.wang/sgguo/webrtc/examples/swap-tracks
+go get github.com/guoguov/webrtc/examples/swap-tracks
 ```
 
 ### Open swap-tracks example page

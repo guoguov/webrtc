@@ -6,7 +6,7 @@ The example mirrors the data-channels example.
 ## Install
 ```
 export GO111MODULE=on
-go get gitlab.mty.wang/sgguo/webrtc/examples/data-channels-detach
+go get github.com/guoguov/webrtc/examples/data-channels-detach
 ```
 
 ## Usage

@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"gitlab.mty.wang/sgguo/webrtc"
-	"gitlab.mty.wang/sgguo/webrtc/examples/internal/signal"
+	"github.com/guoguov/webrtc"
+	"github.com/guoguov/webrtc/examples/internal/signal"
 )
 
 const messageSize = 15

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/guoguov/webrtc/pkg/media"
 	"github.com/pion/transport/v2/test"
 	"github.com/stretchr/testify/assert"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
 )
 
 func Test_ORTC_Media(t *testing.T) {

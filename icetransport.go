@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
+	"github.com/guoguov/webrtc/internal/mux"
 	"github.com/pion/logging"
-	"gitlab.mty.wang/sgguo/webrtc/internal/mux"
 )
 
 // ICETransport allows an application access to information about the ICE

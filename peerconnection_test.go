@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/pion/sdp/v3"
 	"github.com/pion/transport/v2/test"
 	"github.com/stretchr/testify/assert"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 // newPair creates two new peer connections (an offerer and an answerer)

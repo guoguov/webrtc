@@ -1,6 +1,6 @@
 FROM golang:1.20
 
 ENV GO111MODULE=on
-RUN go install gitlab.mty.wang/sgguo/webrtc/examples/pion-to-pion/offer@latest
+RUN go install github.com/guoguov/webrtc/examples/pion-to-pion/offer@latest
 
 CMD ["offer"]

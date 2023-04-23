@@ -9,7 +9,7 @@ is selected.
 ### Download simulcast
 ```
 export GO111MODULE=on
-go get gitlab.mty.wang/sgguo/webrtc/examples/simulcast
+go get github.com/guoguov/webrtc/examples/simulcast
 ```
 
 ### Open simulcast example page

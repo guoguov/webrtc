@@ -3,7 +3,7 @@ package webrtc
 import (
 	"strings"
 
-	"gitlab.mty.wang/sgguo/webrtc/internal/fmtp"
+	"github.com/guoguov/webrtc/internal/fmtp"
 )
 
 // RTPCodecType determines the type of a codec

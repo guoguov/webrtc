@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"gitlab.mty.wang/sgguo/webrtc"
+	"github.com/guoguov/webrtc"
 	"golang.org/x/net/websocket"
 )
 

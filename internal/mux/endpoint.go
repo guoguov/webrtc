@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
 	"github.com/pion/transport/v2/packetio"
 )
 

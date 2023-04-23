@@ -16,14 +16,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
+	"github.com/guoguov/webrtc/internal/util"
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/pion/interceptor"
 	"github.com/pion/logging"
 	"github.com/pion/rtcp"
 	"github.com/pion/sdp/v3"
 	"github.com/pion/srtp/v2"
-	"gitlab.mty.wang/sgguo/webrtc/internal/util"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/rtcerr"
 )
 
 // PeerConnection represents a WebRTC connection that establishes a

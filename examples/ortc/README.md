@@ -10,7 +10,7 @@ In this example we have defined a simple JSON based signaling protocol.
 ### Download ortc
 ```
 export GO111MODULE=on
-go get gitlab.mty.wang/sgguo/webrtc/examples/ortc
+go get github.com/guoguov/webrtc/examples/ortc
 ```
 
 ### Run first client as offerer

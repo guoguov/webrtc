@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/guoguov/webrtc"
 	"github.com/pion/logging"
 	"github.com/pion/transport/v2/vnet"
-	"gitlab.mty.wang/sgguo/webrtc"
 )
 
 /* VNet Configuration

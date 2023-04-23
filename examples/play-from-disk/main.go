@@ -12,11 +12,11 @@ import (
 	"os"
 	"time"
 
-	"gitlab.mty.wang/sgguo/webrtc"
-	"gitlab.mty.wang/sgguo/webrtc/examples/internal/signal"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media/ivfreader"
-	"gitlab.mty.wang/sgguo/webrtc/pkg/media/oggreader"
+	"github.com/guoguov/webrtc"
+	"github.com/guoguov/webrtc/examples/internal/signal"
+	"github.com/guoguov/webrtc/pkg/media"
+	"github.com/guoguov/webrtc/pkg/media/ivfreader"
+	"github.com/guoguov/webrtc/pkg/media/oggreader"
 )
 
 const (
