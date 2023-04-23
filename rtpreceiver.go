@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/guoguov/webrtc/internal/util"
 	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
 	"github.com/pion/srtp/v2"
-	"github.com/pion/webrtc/v3/internal/util"
 )
 
 // trackStreams maintains a mapping of RTP/RTCP streams to a specific track

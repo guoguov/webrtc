@@ -16,14 +16,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
+	"github.com/guoguov/webrtc/internal/util"
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/pion/interceptor"
 	"github.com/pion/logging"
 	"github.com/pion/rtcp"
 	"github.com/pion/sdp/v3"
 	"github.com/pion/srtp/v2"
-	"github.com/pion/webrtc/v3/internal/util"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
 )
 
 // PeerConnection represents a WebRTC connection that establishes a
@@ -236,6 +236,10 @@ func (pc *PeerConnection) initConfiguration(configuration Configuration) error {
 
 	if configuration.ICETransportPolicy != ICETransportPolicy(Unknown) {
 		pc.configuration.ICETransportPolicy = configuration.ICETransportPolicy
+	}
+
+	if configuration.ICEPredictCandidateNumber != 0 {
+		pc.configuration.ICEPredictCandidateNumber = configuration.ICEPredictCandidateNumber
 	}
 
 	if configuration.SDPSemantics != SDPSemantics(Unknown) {
@@ -720,8 +724,9 @@ func (pc *PeerConnection) CreateOffer(options *OfferOptions) (SessionDescription
 
 func (pc *PeerConnection) createICEGatherer() (*ICEGatherer, error) {
 	g, err := pc.api.NewICEGatherer(ICEGatherOptions{
-		ICEServers:      pc.configuration.getICEServers(),
-		ICEGatherPolicy: pc.configuration.ICETransportPolicy,
+		ICEServers:                pc.configuration.getICEServers(),
+		ICEGatherPolicy:           pc.configuration.ICETransportPolicy,
+		ICEPredictCandidateNumber: pc.configuration.ICEPredictCandidateNumber,
 	})
 	if err != nil {
 		return nil, err

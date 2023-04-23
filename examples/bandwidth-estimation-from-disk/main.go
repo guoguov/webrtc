@@ -11,13 +11,13 @@ import (
 	"os"
 	"time"
 
+	"github.com/guoguov/webrtc"
+	"github.com/guoguov/webrtc/examples/internal/signal"
+	"github.com/guoguov/webrtc/pkg/media"
+	"github.com/guoguov/webrtc/pkg/media/ivfreader"
 	"github.com/pion/interceptor"
 	"github.com/pion/interceptor/pkg/cc"
 	"github.com/pion/interceptor/pkg/gcc"
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
-	"github.com/pion/webrtc/v3/pkg/media"
-	"github.com/pion/webrtc/v3/pkg/media/ivfreader"
 )
 
 const (

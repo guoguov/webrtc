@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/pion/ice/v2"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"github.com/guoguov/ice"
+	"github.com/guoguov/webrtc/pkg/rtcerr"
 	"github.com/stretchr/testify/assert"
 )
 

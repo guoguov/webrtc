@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/guoguov/webrtc/internal/util"
+	"github.com/guoguov/webrtc/pkg/media"
 	"github.com/pion/rtp"
-	"github.com/pion/webrtc/v3/internal/util"
-	"github.com/pion/webrtc/v3/pkg/media"
 )
 
 // trackBinding is a single bind for a Track

@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/pkg/media"
+	"github.com/guoguov/webrtc"
+	"github.com/guoguov/webrtc/pkg/media"
 	"github.com/sclevine/agouti"
 )
 

@@ -5,8 +5,8 @@ import (
 	"math"
 	"time"
 
+	"github.com/guoguov/webrtc/pkg/media"
 	"github.com/pion/rtp"
-	"github.com/pion/webrtc/v3/pkg/media"
 )
 
 // SampleBuilder buffers packets until media frames are complete.

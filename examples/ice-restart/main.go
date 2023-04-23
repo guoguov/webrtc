@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pion/webrtc/v3"
+	"github.com/guoguov/webrtc"
 )
 
 var peerConnection *webrtc.PeerConnection //nolint

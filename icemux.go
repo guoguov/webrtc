@@ -3,7 +3,7 @@ package webrtc
 import (
 	"net"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
 	"github.com/pion/logging"
 )
 

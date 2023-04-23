@@ -7,7 +7,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
 	"github.com/pion/logging"
 	"github.com/pion/transport/v2/packetio"
 )

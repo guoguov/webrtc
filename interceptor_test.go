@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/guoguov/webrtc/pkg/media"
 	"github.com/pion/interceptor"
 	mock_interceptor "github.com/pion/interceptor/pkg/mock"
 	"github.com/pion/rtp"
 	"github.com/pion/transport/v2/test"
-	"github.com/pion/webrtc/v3/pkg/media"
 	"github.com/stretchr/testify/assert"
 )
 

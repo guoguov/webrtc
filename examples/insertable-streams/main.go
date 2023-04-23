@@ -12,10 +12,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
-	"github.com/pion/webrtc/v3/pkg/media"
-	"github.com/pion/webrtc/v3/pkg/media/ivfreader"
+	"github.com/guoguov/webrtc"
+	"github.com/guoguov/webrtc/examples/internal/signal"
+	"github.com/guoguov/webrtc/pkg/media"
+	"github.com/guoguov/webrtc/pkg/media/ivfreader"
 )
 
 const cipherKey = 0xAA

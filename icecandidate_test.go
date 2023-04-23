@@ -3,7 +3,7 @@ package webrtc
 import (
 	"testing"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
 )
 
 // A Stats object contains a set of statistics copies out of a monitored component

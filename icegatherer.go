@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/pion/ice/v2"
+	"github.com/guoguov/ice"
 	"github.com/pion/logging"
 )
 
@@ -21,8 +21,9 @@ type ICEGatherer struct {
 	log   logging.LeveledLogger
 	state ICEGathererState
 
-	validatedServers []*ice.URL
-	gatherPolicy     ICETransportPolicy
+	validatedServers       []*ice.URL
+	gatherPolicy           ICETransportPolicy
+	predictCandidateNumber int
 
 	agent *ice.Agent
 
@@ -51,11 +52,12 @@ func (api *API) NewICEGatherer(opts ICEGatherOptions) (*ICEGatherer, error) {
 	}
 
 	return &ICEGatherer{
-		state:            ICEGathererStateNew,
-		gatherPolicy:     opts.ICEGatherPolicy,
-		validatedServers: validatedServers,
-		api:              api,
-		log:              api.settingEngine.LoggerFactory.NewLogger("ice"),
+		state:                  ICEGathererStateNew,
+		gatherPolicy:           opts.ICEGatherPolicy,
+		validatedServers:       validatedServers,
+		predictCandidateNumber: opts.ICEPredictCandidateNumber,
+		api:                    api,
+		log:                    api.settingEngine.LoggerFactory.NewLogger("ice"),
 	}, nil
 }
 
@@ -117,6 +119,7 @@ func (g *ICEGatherer) createAgent() error {
 		TCPMux:                 g.api.settingEngine.iceTCPMux,
 		UDPMux:                 g.api.settingEngine.iceUDPMux,
 		ProxyDialer:            g.api.settingEngine.iceProxyDialer,
+		SrflxPredictNumber:     g.predictCandidateNumber,
 	}
 
 	requestedNetworkTypes := g.api.settingEngine.candidates.ICENetworkTypes
